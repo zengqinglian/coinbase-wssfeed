@@ -37,7 +37,6 @@ public class WebsocketFeed extends WebSocketClient {
         super(serverUri, draft);
         this.objectMapper = objectMapper;
         this.subscribe = new Subscribe();
-
     }
 
     @Override
