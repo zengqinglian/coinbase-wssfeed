@@ -9,7 +9,7 @@ Connect to free coinbase wss feed.
 Snapshot message is not send from another URL or port. 
 
 TODO:
-Unit test is missing. 
+- Unit test is missing. 
 - When message missing, add function to auto resuscribe.
 - save raw message to a file for replay
 - Function to broadcast the message to downstream 
