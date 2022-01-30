@@ -14,5 +14,12 @@ TODO:
 - save raw message to a file for replay
 - Function to broadcast the message to downstream 
 
+Jar file is also provided: 
+
+To run from command line
+java -cp GSR-Test-Qinglian-Zeng-1.0-SNAPSHOT-jar-with-dependencies.jar qinglian.zeng.coinbase.ws.feed.Main
+
+Ctrl+C to stop. 
+
 
 
