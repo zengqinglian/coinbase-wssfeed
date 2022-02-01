@@ -9,10 +9,17 @@ Connect to free coinbase wss feed.
 Snapshot message is not send from another URL or port. 
 
 TODO:
-Unit test is missing. 
+- Unit test is missing. 
 - When message missing, add function to auto resuscribe.
 - save raw message to a file for replay
 - Function to broadcast the message to downstream 
+
+Jar file is also provided:  (Java 11)
+
+To run from command line
+java -cp GSR-Test-Qinglian-Zeng-1.0-SNAPSHOT-jar-with-dependencies.jar qinglian.zeng.coinbase.ws.feed.Main
+
+Ctrl+C to stop. 
 
 
 
