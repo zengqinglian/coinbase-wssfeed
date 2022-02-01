@@ -26,8 +26,6 @@ import java.util.Base64;
 @ClientEndpoint
 public class WebsocketFeed extends WebSocketClient {
 
-    private static final Logger log = LoggerFactory.getLogger(WebsocketFeed.class);
-
     private final ObjectMapper objectMapper;
     private MessageHandler messageHandler;
     private boolean connectioned;
@@ -53,19 +51,18 @@ public class WebsocketFeed extends WebSocketClient {
 
     @Override
     public void onMessage(String s) {
-        log.debug(s);
         messageHandler.handleMessage(s);
     }
 
     @Override
     public void onClose(int i, String s, boolean b) {
-        log.info("onClose" + s);
+        System.out.println("onClose" + s);
         super.close();
     }
 
     @Override
     public void onError(Exception e) {
-        log.error("Error: " , e);
+        System.out.println("Error: " + e.getCause());
         e.printStackTrace();
     }
 

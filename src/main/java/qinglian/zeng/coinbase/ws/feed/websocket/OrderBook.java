@@ -77,4 +77,11 @@ public class OrderBook {
     public boolean isEmpty() {
         return bids.isEmpty() && asks.isEmpty();
     }
+
+    Double2DoubleAVLTreeMap getBids(){
+        return bids;
+    }
+    Double2DoubleAVLTreeMap getAsks(){
+        return asks;
+    }
 }

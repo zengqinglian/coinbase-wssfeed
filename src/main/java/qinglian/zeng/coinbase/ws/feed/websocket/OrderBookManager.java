@@ -54,4 +54,8 @@ public class OrderBookManager {
             addAsk(productId, update);
         }
     }
+
+    Map<String, OrderBook> getOrderBookMap() {
+        return orderBookMap;
+    }
 }

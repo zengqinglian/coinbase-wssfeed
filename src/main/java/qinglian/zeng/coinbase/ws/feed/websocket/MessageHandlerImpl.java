@@ -28,8 +28,6 @@ public class MessageHandlerImpl implements MessageHandler{
 
     @Override
     public void handleMessage(String message) {
-        //System.out.println(message);
-
         try {
             FeedBaseMessage feedBaseMessage = objectMapper.readValue(message, FeedBaseMessage.class);
             String type = feedBaseMessage.getType();
