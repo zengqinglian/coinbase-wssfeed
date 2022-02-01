@@ -2,6 +2,14 @@
 coinbase-wssfeed
 https://docs.cloud.coinbase.com/exchange/docs/channels
 
+Assumption:
+Print out price on each tick :  
+Two possible way : 
+- monitor top price in order book and print order book when top bid or ask changed. 
+- Print out order book after received each ticker message.  The Code here is doing this. 
+
+
+
 Connect to free coinbase wss feed.
 - It is WSS (TCP) based protocol , so the code does not have recovery function in it. 
 - Most of case TCP miss message due to hardware error or network congestion.  In this case, you can restart the feed. 
