@@ -23,7 +23,6 @@ import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Base64;
 
-@ClientEndpoint
 public class WebsocketFeed extends WebSocketClient {
 
     private final ObjectMapper objectMapper;
