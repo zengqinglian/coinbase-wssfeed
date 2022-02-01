@@ -5,8 +5,8 @@ https://docs.cloud.coinbase.com/exchange/docs/channels
 Assumption:
 Print out price on each tick :  
 Two possible way : 
-- monitor top price in order book and print order book when top bid or ask changed. 
-- Print out order book after received each ticker message.  The Code here is doing this. 
+- monitor top price in order book and print order book when top bid or ask changed over tick size. However, I did not find tick size definition from Coinbase doc. 
+- Print out order book after received each ticker message.  The Code here is doing this logic. 
 
 
 
