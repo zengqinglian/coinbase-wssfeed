@@ -8,11 +8,9 @@ Connect to free coinbase wss feed.
 - Another reason i did not add recovery is all the products message subscribed are send from the same URL and port. 
 Snapshot message is not send from another URL or port. 
 
-TODO:
-- Unit test is missing. 
-- When message missing, add function to auto resuscribe.
-- save raw message to a file for replay
-- Function to broadcast the message to downstream 
+Improvement: 
+- add Replay function
+- add Function to broadcast the message to downstream 
 
 Jar file is also provided:  (Java 11)
 
