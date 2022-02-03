@@ -23,7 +23,7 @@ Improvement:
 Jar file is also provided:  (Java 11)
 
 To run from command line
-java -cp GSR-Test-Qinglian-Zeng-1.0-SNAPSHOT-jar-with-dependencies.jar qinglian.zeng.coinbase.ws.feed.Main
+java -cp Qinglian-Zeng-1.0-SNAPSHOT-jar-with-dependencies.jar qinglian.zeng.coinbase.ws.feed.Main
 
 Ctrl+C to stop. 
 
